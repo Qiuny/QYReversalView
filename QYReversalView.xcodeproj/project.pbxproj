@@ -14,6 +14,7 @@
 		523EB5D01D16374C0023C8DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 523EB5CE1D16374C0023C8DA /* LaunchScreen.storyboard */; };
 		523EB5DB1D16374C0023C8DA /* QYReversalViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523EB5DA1D16374C0023C8DA /* QYReversalViewTests.swift */; };
 		523EB5E61D16374C0023C8DA /* QYReversalViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523EB5E51D16374C0023C8DA /* QYReversalViewUITests.swift */; };
+		523EB5F41D16380F0023C8DA /* QYReversalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523EB5F31D16380F0023C8DA /* QYReversalView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		523EB5E11D16374C0023C8DA /* QYReversalViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QYReversalViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		523EB5E51D16374C0023C8DA /* QYReversalViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QYReversalViewUITests.swift; sourceTree = "<group>"; };
 		523EB5E71D16374C0023C8DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		523EB5F31D16380F0023C8DA /* QYReversalView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QYReversalView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				523EB5C51D16374C0023C8DA /* AppDelegate.swift */,
 				523EB5C71D16374C0023C8DA /* ViewController.swift */,
+				523EB5F31D16380F0023C8DA /* QYReversalView.swift */,
 				523EB5C91D16374C0023C8DA /* Main.storyboard */,
 				523EB5CC1D16374C0023C8DA /* Assets.xcassets */,
 				523EB5CE1D16374C0023C8DA /* LaunchScreen.storyboard */,
@@ -256,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				523EB5F41D16380F0023C8DA /* QYReversalView.swift in Sources */,
 				523EB5C81D16374C0023C8DA /* ViewController.swift in Sources */,
 				523EB5C61D16374C0023C8DA /* AppDelegate.swift in Sources */,
 			);
@@ -400,6 +404,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = QYReversalView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Qiuny.QYReversalView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -411,6 +416,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = QYReversalView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Qiuny.QYReversalView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
